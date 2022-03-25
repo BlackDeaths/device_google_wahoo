@@ -1,5 +1,7 @@
 soong_namespace {
     imports: [
+        "device/google/taimen",
+        "device/google/walleye",
         "hardware/google/pixel",
 	"hardware/google/interfaces",
         "hardware/qcom/bootctrl",
