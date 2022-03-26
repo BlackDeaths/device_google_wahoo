@@ -90,6 +90,8 @@ type hexagon_halide_file, vendor_file_type, file_type;
 
 # Battery Stats file
 typeattribute sysfs_batteryinfo mlstrustedobject;
+type sysfs_battery_supply, sysfs_type, fs_type;
+
 
 # msm_irqbalance
 type proc_irq, fs_type, proc_type;
